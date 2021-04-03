@@ -5,14 +5,14 @@ on:
     types: [labeled]
 
 env:
-  DOCKER_IMAGE_NAME: sebainones-azure-ttt
+  DOCKER_IMAGE_NAME: sebainones
   IMAGE_REGISTRY_URL: docker.pkg.github.com
   #################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
   #################################################
   #################################################
   ### REPLACE USERNAME WITH GH USERNAME         ###
-  AZURE_WEBAPP_NAME: sebainones-ttt-app
+  AZURE_WEBAPP_NAME: sebainones
   #################################################
 
 jobs:
